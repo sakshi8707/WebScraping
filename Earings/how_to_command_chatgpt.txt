@@ -1,0 +1,22 @@
+
+using python
+
+read earing.html and parse it with beautifulsoup
+
+find all 
+
+
+li  with class="item product product-item" data-sku="5501377-P">
+
+
+for all the li
+try find div with class="product-brand " and  store it in brandName
+except brandNames = ""
+
+try find <a  with class="product-item-link" and store it in Title
+except Title = ""
+
+try find <span with  class="price" and store it in Prices
+except Prices = ""
+
+open an excel file and write brandNames , Title and Prices in it
